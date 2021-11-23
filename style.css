@@ -1,0 +1,138 @@
+
+body{
+	 background-color:#4D7C8A;
+		color:#1B4079;
+		line-height: 1.6;
+		letter-spacing: 2px;
+		font-weight: 100; /*from 100 to 900*/
+		font-family: 'Lato', sans-serif;
+	}
+
+h1,h2,h3, h4{
+	font-family: 'Staatliches', cursive;
+}
+
+h1{
+	/*color: #8FAD88;*/
+	color: #CBDF90;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size:60px;
+}
+h2{
+
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a{
+	font-family: 'Staatliches', cursive;
+	text-decoration: none;
+	color:#7F9C96;
+	font-weight: bold;
+	font-size: 24px;
+	font-weight: 600;
+}
+a:hover{
+	color: #CBDF90;
+	transition: color 0.3 ease;
+}
+
+#headshot{
+	border-radius: %;
+	box-shadow: 5px 5px 3px black;
+	width:150px;
+}
+
+/*descendant selector
+	#banner h1{
+	color:white;
+	}
+group selector
+	h1,h2,h3{}
+
+pseudo class a:hover;*/
+
+/*
+.container {
+	Background: white;
+	Padding: 2px; /*internal space*/
+	Border-radius: 4px; /*small radius
+	margin: 4px;
+	Box-shadow: 0 10px 30px rgba(0,0,0,0, .1); /*Stripe shadow
+}*/
+.center-image{
+	Width: 300px;
+	Margin:20px;
+	Padding: 30px;
+	align-content: center;
+}
+
+#div-center{
+	margin: 40px auto;
+    width: 700px;
+}
+
+.container {
+	width:700px;
+	margin:40px auto;
+}
+
+@media (max-width: 960px){
+	.container{
+		width:700px;
+	}
+}
+/* media is condition */
+@media (max-width: 720px){
+	.container{
+		width:500px;
+	}
+}
+
+@media (max-width: 540px){
+	.container{
+		width:300px;
+	}
+}
+
+.card-white{
+	background-color: white;
+	padding:40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:4px;
+	margin:20px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #7F9C96;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color: black;
+}
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+}
+.list-inline li { 
+	display:inline;
+	padding: 10px;
+}
+.list-inline i{ 
+	font-size:50px;
+	color:rgb(230,230,230);
+}
+.list-inline i:hover{ 
+	font-size:50px;
+	color:black;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
+}
